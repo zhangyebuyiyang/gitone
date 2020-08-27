@@ -1,0 +1,21 @@
+一.划分目录结构
+  1.views存放页面组件
+  2.assets存放静态资源如css、js文件。
+  3.components存放公共组件
+    3.1 common  ==> 其它项目也可以使用的组件
+    3.2 content ==> 和当前业务有关的组件
+  4.router文件夹、store文件夹、network文件夹。
+  5.common文件夹 当前项目用得到的公共js文件
+
+二.css文件的引入  normalize.css / base.css
+   在style里导入css文件 @import "".
+
+三.文件配置别名
+   我们的操作都在scr内部，所以文件间相互引用时，可以给文件配置别名。
+   项目文件夹下创建vue.config.js 
+   在结构标签内使用别名，前面添加 ~ 符号
+
+四.代码风格
+   整个文件下创建 .editorconfig文件
+
+  
